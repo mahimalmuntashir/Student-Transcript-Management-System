@@ -54,11 +54,11 @@ Each student's transcript includes:
 ```
 Create a new student: Please input the aspects of the student by turn:
 Major: CST
-ID: 2130130248
+ID: 04
 Name: MAHIM
 Gender: Male
-Subject: DSA
-Score: 99
+Subject: Intro-Com-Sci
+Score: 95
 Student info successfully created.
 Would you hope to continue to create a new one? Y/N
 ```
