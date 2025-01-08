@@ -16,6 +16,15 @@ A comprehensive application designed to manage student transcripts effectively. 
 - **Data Persistence**: Saves all information into a `student.csv` file upon exiting the system.
 
 ---
+## Instructions
+- When starting the program, display the welcome info along with the menu:
+- The user can choose a module by pressing a relevant number;
+- A module will be executed according to the user’s choice;
+- The transcript is demanded to include the following information about a student: Major, ID, Name, Gender, Subject, Score;
+- If a specific student is searched, the user can choose to modify or to delete this student’s information;
+- The transcript will be saved when the system is quitted, and all info will be exported into a file called student.csv.
+- Execution example of each module:
+
 
 ## Transcript Information
 Each student's transcript includes:
@@ -45,11 +54,11 @@ Each student's transcript includes:
 ```
 Create a new student: Please input the aspects of the student by turn:
 Major: CST
-ID: 2030130209
-Name: Marco
+ID: 2130130248
+Name: MAHIM
 Gender: Male
-Subject: Intro-Com-Sci
-Score: 85
+Subject: DSA
+Score: 99
 Student info successfully created.
 Would you hope to continue to create a new one? Y/N
 ```
@@ -63,7 +72,7 @@ Major   ID  Name       Gender   Subject         Score
 CST     01  Marco      Male     Intro-Com-Sci   85
 CST     02  Alessandro Male     Intro-Com-Sci   95
 CST     03  Matteo     Male     Intro-Com-Sci   85
-CST     04  Lorenzo    Male     Intro-Com-Sci   95
+CST     04  MAHIM      Male     Intro-Com-Sci   95
 CST     05  Lucia      Female   Intro-Com-Sci   90
 CST     06  Paola      Female   Intro-Com-Sci   95
 ```
@@ -79,9 +88,9 @@ Use a data structure of your choice to store the data and implement at least two
 ### 4. QUERY Module
 **Execution Example**:
 ```
-Please input the student name for query: Lorenzo
+Please input the student name for query: MAHIM
 Major   ID  Name       Gender   Subject         Score
-CST     04  Lorenzo    Male     Intro-Com-Sci   95
+CST     04  MAHIM      Male     Intro-Com-Sci   95
 Please choose the operation on this student:
 1. Modify
 2. Delete
@@ -95,7 +104,7 @@ Input the new value for attribute "Subject": Python Coding
 Input the new value for attribute "Score":  
 Modification is successful!
 Major   ID  Name       Gender   Subject         Score
-SE      04  Lorenzo    Male     Python Coding   95
+SE      04  MAHIM      Male     Python Coding   95
 ```
 
 #### Delete:
